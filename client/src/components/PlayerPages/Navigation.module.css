@@ -1,0 +1,40 @@
+.navBar {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav button {
+    color: rgb(135, 136, 136);
+    font-size: large;
+}
+
+nav button:hover {
+    color: rgb(239, 239, 239);
+}
+
+nav {
+    width:100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: inherit;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(135, 136, 136);
+    font-size: large;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+    /* font-size: large; */
+}
+
+a[class="active"] {
+    color: rgb(239, 239, 239);
+}

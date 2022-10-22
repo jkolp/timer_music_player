@@ -1,0 +1,23 @@
+.songItemCardContainer {
+    background-color: rgb(66, 66, 66);
+    margin-bottom: 10px;
+    width: 370px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnailImg {
+    width: 53px;
+    height: 100%;
+    background-color: aqua;
+}
+
+.songItemInfo {
+    padding-left: 13px;
+}
+
+.addToPlaylistBtn {
+    /* set this to have the btn to far right*/
+    margin-left: auto; 
+}

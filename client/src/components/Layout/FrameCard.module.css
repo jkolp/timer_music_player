@@ -1,0 +1,8 @@
+@import url('http://fonts.cdnfonts.com/css/lcd');
+
+.frameCard {
+    font-family: 'LCD2', sans-serif;
+    color: rgb(239, 239, 239);
+    font-size: 20vw;
+    height: fit-content;
+}

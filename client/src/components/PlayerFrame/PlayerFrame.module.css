@@ -1,0 +1,82 @@
+/* left control */
+.leftControlBtns {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.skipBackBtn {
+    margin-left: 8px;
+}
+
+.playPauseBtn {
+    margin-left: 9px;
+}
+
+.skipForwardBtn {
+    margin-left: 8px;
+}
+
+.timeInfo {
+    flex: 0.7;
+    text-align: center;
+    font-size: 14px;
+    /* margin-right: px; */
+    min-width: 55px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    color: #b0b0b0;
+    cursor: pointer;
+}
+
+.playerFrame {
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    color: #909090;
+    z-index: 999;
+}
+
+.playerFrameContainer {
+    display: flex;
+    height: 100%;
+}
+
+.leftControl {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.rightControl {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.songInfoContainer {
+    margin-left: 5px;
+}
+
+.expandableBtn {
+    margin-right: 23px;
+}
+
+.expandableBtn:hover {
+    color: #969696;
+}
+
+.arrowButton {
+    flex: 0.4;
+}

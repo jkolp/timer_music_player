@@ -1,0 +1,22 @@
+
+
+.expanded {
+    top: 0;
+    bottom: 70px;
+    width: 100vw;
+    position: absolute;
+    background-color: #0e1111;
+    transition: top 300ms ease-in;
+    overflow: hidden;
+}
+
+.collapsed {
+    position: absolute;
+    top: calc(100vh - 70px);
+    bottom: 70px;
+    width: 100%;
+    overflow: hidden;
+    transition: top 300ms ease-in;
+    background-color: #0e1111;
+    z-index: 2;
+}
